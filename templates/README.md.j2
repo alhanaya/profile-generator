@@ -1,0 +1,26 @@
+# Hi, I'm {{ name }}
+
+**{{ headline }}**  
+{{ summary }}
+
+{% if location %}- **Location:** {{ location }}{% endif %}
+{% if email %}- **Email:** {{ email }}{% endif %}
+
+## Links
+{% for l in links -%}
+- {{ l.label }}: {{ l.url }}
+{% endfor %}
+
+## Skills
+{% for s in skills -%}
+- {{ s }}
+{% endfor %}
+
+## Featured Projects
+{% for p in projects -%}
+- **{{ p.name }}** — {{ p.description }}{% if p.url %} ({{ p.url }}){% endif %}
+{% endfor %}
+
+---
+
+_This README was generated automatically from `profile.json`._

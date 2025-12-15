@@ -1,0 +1,25 @@
+{
+  "name": "Nasser AlDossari",
+  "headline": "Backend-Focused Software Developer",
+  "summary": "I build backend-driven systems and data tools with a focus on clean architecture, text processing, and clear documentation.",
+  "location": "Saudi Arabia",
+  "email": "",
+  "links": [
+    { "label": "GitHub", "url": "https://github.com/alhanaya" }
+  ],
+  "skills": [
+    "Python",
+    "Backend Development",
+    "Data Processing",
+    "Text Analysis",
+    "SQL",
+    "API Design"
+  ],
+  "projects": [
+    {
+      "name": "Profile Generator",
+      "description": "A Python tool that generates a professional GitHub profile README from structured data.",
+      "url": ""
+    }
+  ]
+}
